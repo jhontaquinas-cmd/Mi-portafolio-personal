@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserva tu cita - Barber Studio Visionary</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+<h1><span class="dorado">Barber Studio</span> <span class="blanco">Visionary</span></h1>
+<h2>Reserva tu cita</h2>
+</header>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="servicios.html">Servicios</a>
+<a href="galeria.html">Galería</a>
+<a href="formulario.html">Reserva tu cita</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+<section>
+<article>
+<h3>Agenda tu cita con nosotros</h3>
+<form>
+<label for="nombre">Tu nombre</label>
+<input type="text" id="nombre" required>
+
+<label for="whatsapp">Tu WhatsApp</label>
+<input type="text" id="whatsapp" required>
+
+<label for="servicio">Servicio</label>
+<select id="servicio" required>
+<option value="">Selecciona...</option>
+<option value="corte">Corte</option>
+<option value="barba">Barba</option>
+<option value="corte-barba">Corte + Barba</option>
+<option value="tinte">Tinte</option>
+</select>
+
+<label for="fecha">Fecha</label>
+<input type="date" id="fecha" required>
+
+<label for="hora">Hora</label>
+<input type="time" id="hora" required>
+
+<label for="comentarios">Comentarios</label>
+<textarea id="comentarios" rows="5"></textarea>
+
+<input type="submit" value="Reservar cita">
+</form>
+</article>
+</section>
+
+<footer>
+<marquee behavior="alternate"> ¡TE ESTAREMOS ESPERANDO!</marquee>
+</footer>
+</body>
+</html>
